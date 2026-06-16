@@ -22,6 +22,13 @@
 *   **Araçlar & Metodolojiler:** Git, GitHub, Android Studio, Xcode, OOP, Design Patterns (Singleton, Bridge, vb.)
 
 ---
+# 📊 GitHub İstatistikleri
 
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=msshn01&show_icons=true&theme=tokyonight" alt="Musa Sahan GitHub Stats" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=tokyonight" alt="Top Languages" height="160" />
+</p>
+
+---
 
 
