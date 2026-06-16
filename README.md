@@ -23,15 +23,5 @@
 
 ---
 
-## 🚀 Öne Çıkan Projeler
-
-#### 📱 SyncTeam | Bulut Tabanlı Operasyonel Yönetim Platformu
-*   Girişimcilik ve proje yönetimi süreçlerini optimize etmek amacıyla geliştirilmiş, ekip içi senkronizasyonu ve iş akışlarını yöneten bulut tabanlı platform.
-
-#### 🏠 Smart Home Nexus | Akıllı Ev Otomasyon Sistemi
-*   Singleton ve Bridge tasarım desenleri (Design Patterns) kullanılarak geliştirilmiş, mobil entegrasyonlu ve modüler mimariye sahip akıllı ev otomasyon projesi.
-
----
-
 
 
