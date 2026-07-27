@@ -37,18 +37,8 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" width="48%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msshn01&theme=tokyonight&hide_border=true" width="97%" />
-</p>
-
 ---
 
-### 📈 Activity Graph
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=tokyonight" width="100%" alt="Musa's GitHub Stats" />
-</p>
----
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" width="100%"/>
