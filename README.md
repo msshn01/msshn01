@@ -1,3 +1,5 @@
+# Hi there, I'm Musa Şahan 👋
+---
 🚀 **Computer Engineering Student & Native Mobile Developer**  
 📱 Crafting high-performance native iOS & Android applications with Clean Architecture.  
 🤖 Exploring Machine Learning, LLM integrations & Data Science.
