@@ -1,11 +1,12 @@
 # Hi there, I'm Musa Şahan 👋
 
-|  _ \  _____   __  ___  | |   |  _ \ | |  _   _  __  ___  ___
+$ whoami
+> Musa Şahan | Computer Engineer & Native Mobile Dev
 
-| | | |/ _ \ \ / / / _ \ | |   | |) || | | | | |/ / / _ / __|
-| || |  /\ V / |  / | ||  _ < | | || |   < |  _/_ \
-|___/ _| _/   _| ||| _||_,||_\||_/
+$ fetch --skills
+> ["Kotlin", "Swift", "Jetpack Compose", "SwiftUI", "AI/ML"]
 
+$ git commit -m "Building scalable mobile apps 🚀"
 
 🚀 **Computer Engineering Student & Mobile Developer**  
 📱 Crafting high-performance native iOS & Android applications.  
