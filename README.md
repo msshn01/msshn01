@@ -46,7 +46,7 @@
 ### 📈 Activity Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/msshn01/msshn01/output/github-contribution-grid-snake.svg" width="97%" alt="Snake animation" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=tokyonight" width="97%" alt="Musa's GitHub Contribution City" />
 </p>
 
 ---
