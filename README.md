@@ -46,7 +46,7 @@
 ### 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=msshn01&theme=tokyo-night&hide_border=true" width="97%" />
+  <img src="https://raw.githubusercontent.com/msshn01/msshn01/output/github-contribution-grid-snake.svg" width="97%" alt="Snake animation" />
 </p>
 
 ---
