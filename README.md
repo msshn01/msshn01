@@ -46,9 +46,8 @@
 ### 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=tokyonight" width="97%" alt="Musa's GitHub Contribution City" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=tokyonight" width="100%" alt="Musa's GitHub Stats" />
 </p>
-
 ---
 
 <p align="center">
