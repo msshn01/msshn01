@@ -56,10 +56,8 @@
 ### 📊 Dynamic GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=msshn01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msshn01&theme=radical&hide_border=true" width="98.5%" alt="GitHub Streak" />
 </p>
-
 ---
 
 ### 📈 Activity Graph
