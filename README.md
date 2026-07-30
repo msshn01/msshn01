@@ -67,6 +67,7 @@
 ### 📈 Activity Graph
 
 <p align="center">
+  <img src="https://github-readme-promoted-stats.vercel.app/api/top-langs?username=msshn01&theme=radical&layout=compact" alt="Coding Habits" />
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=radical" width="98%" alt="GitHub Activity Stats" />
 </p>
 
