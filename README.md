@@ -66,13 +66,27 @@
 
 ### 📈 Activity Graph
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msshn01&theme=radical&layout=compact" alt="Top Languages" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=msshn01&theme=radical" width="98%" alt="GitHub Activity Stats" />
-</p>
+  <!-- Animasyonlu Terminal Başlığı -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF79C6&center=true&vcenter=true&width=500&lines=Computer+Engineering+Student;Android+%26+Mobile+Developer;Building+Clean+%26+Scalable+Apps" alt="Typing SVG" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Isometric / 3D Commit Haritası veya Metric Streak -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=msshn01&theme=radical&hide_border=true" alt="GitHub Streak" />
+
+  <br/><br/>
+
+  <!-- Modern & Clean Stats Grid -->
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=msshn01&show_icons=true&theme=radical&hide_border=true&count_private=true" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=radical&hide_border=true&hide=html,css" />
+  </a>
+
+</div>
 
 ---
 
