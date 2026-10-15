@@ -1,8 +1,8 @@
 <h1 align="center">Musa Şahan</h1>
 
 <p align="center">
-  <b>Computer Engineering Student · Native Mobile Developer · Embedded Systems</b><br/>
-  Building native Android & iOS apps with Clean Architecture, and low-level firmware for off-grid radio networks.
+  <b>Computer Engineering Student · Android Developer · Embedded Systems</b><br/>
+  Building native Android apps with Clean Architecture, and low-level firmware for off-grid radio networks.
 </p>
 
 <p align="center">
@@ -16,14 +16,14 @@
 ## About Me
 
 - 🎓 4th-year Computer Engineering student at **İnönü University** (expected graduation: 2027)
-- 📱 Focused on **native mobile development** — Kotlin & Jetpack Compose on Android, Swift & SwiftUI on iOS
+- 📱 Focused on **native Android development** with Kotlin & Jetpack Compose
 - 📡 Currently building a **decentralized LoRa mesh network** on ESP32 as my graduation project
 - 🤖 Exploring **LLM integration, RAG** and data processing with Python
 - 🌱 Interested in the space where mobile meets hardware: embedded firmware, radio protocols and the apps that talk to them
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### 📡 [LoRa Mesh — Off-Grid Messaging Network](https://github.com/msshn01/lora-mesh)
 
@@ -37,17 +37,29 @@ A decentralized communication network that carries messages between devices **wi
 
 `C` `ESP-IDF` `ESP32` `LoRa` `SPI` `Embedded Systems` `Networking`
 
+### 🚗 [CarLog — Vehicle Maintenance & Expense Assistant](https://github.com/msshn01/CarLog)
+
+An Android app that keeps track of a driver's vehicles, maintenance history and upcoming deadlines, and reminds them before inspection or insurance dates slip by.
+
+- **Architecture:** MVVM with a Clean Architecture package structure (`data` / `domain` / `ui` / `di`) and the Repository Pattern
+- **UI:** fully built with **Jetpack Compose** and Jetpack Navigation, including an animated splash screen
+- **Authentication:** **Firebase Auth** with email/password sign-up, input validation, password reset flow and auto-login
+- **Garage:** multi-vehicle support with a vehicle carousel, active vehicle switching, and add/edit/delete flows
+- **Maintenance tracking:** service logs (oil, brakes, timing belt, etc.) with **mileage- and time-based remaining-life indicators**
+- **Smart reminders:** scheduled local notifications via **WorkManager** for inspection and insurance renewal dates
+- **Roadmap:** offline-first sync with Room + Firestore, expense analytics with charts, and a **Gemini-powered AI assistant** that answers questions using the active vehicle's data as context
+
+`Kotlin` `Jetpack Compose` `MVVM` `Firebase` `WorkManager` `Navigation`
+
 ---
 
 ## Tech Stack
 
-**Mobile Development**
+**Android Development**
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Android](https://img.shields.io/badge/Android%20SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-007ACC?style=for-the-badge&logo=swift&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
 **Embedded Systems**
@@ -79,13 +91,13 @@ A decentralized communication network that carries messages between devices **wi
 | Area | Technologies |
 |---|---|
 | **Architecture & Patterns** | Clean Architecture, MVVM, MVI, Repository Pattern, Dependency Injection (Hilt / Koin) |
-| **Async & State** | Kotlin Coroutines, Flow, Combine, State Management, Jetpack Libraries |
+| **Async & State** | Kotlin Coroutines, Flow, State Management, Jetpack Libraries |
 | **Networking** | RESTful APIs, Retrofit, Ktor, JSON |
 | **Persistence** | Room, SQLite, PostgreSQL, Firebase Firestore & Realtime Database |
 | **Firebase** | Authentication, Cloud Messaging, Firestore, Realtime Database |
 | **Embedded** | ESP-IDF, SPI, register-level radio drivers, LoRa (SX1278), OLED displays |
 | **AI / ML** | LLM integration, RAG, computer vision basics, Pandas, NumPy |
-| **Tools** | Android Studio, Xcode, VS Code, Git / Git Flow, GitHub, Figma, Postman |
+| **Tools** | Android Studio, VS Code, Git / Git Flow, GitHub, Figma, Postman |
 
 </details>
 
@@ -101,5 +113,5 @@ A decentralized communication network that carries messages between devices **wi
 ---
 
 <p align="center">
-  <i>Open to internship opportunities in mobile development and embedded systems.</i>
+  <i>Open to internship opportunities in Android development and embedded systems.</i>
 </p>
