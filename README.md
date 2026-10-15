@@ -25,7 +25,7 @@
 
 ## Öne Çıkan Projeler
 
-### 📡 [LoRa Mesh — İnternetsiz Mesajlaşma Ağı](https://github.com/msshn01/lora-mesh)
+### 📡 [LoRa Mesh — İnternetsiz Mesajlaşma Ağı](https://github.com/msshn01/lora_mesh)
 
 Cihazlar arasında **internet veya baz istasyonu olmadan** mesaj taşıyan, afet ve enkaz senaryoları düşünülerek tasarlanmış merkezi olmayan bir haberleşme ağı. Her düğüm başkalarının paketlerini aktarabildiği için mesajlar ağ üzerinde atlayarak doğrudan menzil dışındaki düğümlere ulaşır.
 
