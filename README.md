@@ -1,81 +1,81 @@
 <h1 align="center">Musa Şahan</h1>
 
 <p align="center">
-  <b>Computer Engineering Student · Android Developer · Embedded Systems</b><br/>
-  Building native Android apps with Clean Architecture, and low-level firmware for off-grid radio networks.
+  <b>Bilgisayar Mühendisliği Öğrencisi · Android Geliştirici · Gömülü Sistemler</b><br/>
+  Clean Architecture ile native Android uygulamaları, internetsiz radyo ağları için düşük seviyeli gömülü yazılımlar geliştiriyorum.
 </p>
 
 <p align="center">
   <a href="https://github.com/msshn01"><img src="https://img.shields.io/badge/GitHub-msshn01-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/İnönü%20University-Computer%20Engineering-0A66C2?style=flat-square" />
-  <img src="https://img.shields.io/badge/Location-Malatya%2C%20Türkiye-E30A17?style=flat-square" />
+  <img src="https://img.shields.io/badge/İnönü%20Üniversitesi-Bilgisayar%20Mühendisliği-0A66C2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Konum-Malatya%2C%20Türkiye-E30A17?style=flat-square" />
 </p>
 
 ---
 
-## About Me
+## Hakkımda
 
-- 🎓 4th-year Computer Engineering student at **İnönü University** (expected graduation: 2027)
-- 📱 Focused on **native Android development** with Kotlin & Jetpack Compose
-- 📡 Currently building a **decentralized LoRa mesh network** on ESP32 as my graduation project
-- 🤖 Exploring **LLM integration, RAG** and data processing with Python
-- 🌱 Interested in the space where mobile meets hardware: embedded firmware, radio protocols and the apps that talk to them
+- 🎓 **İnönü Üniversitesi** Bilgisayar Mühendisliği 4. sınıf öğrencisiyim (beklenen mezuniyet: 2027)
+- 📱 Kotlin ve Jetpack Compose ile **native Android geliştirme** üzerine odaklanıyorum
+- 📡 Bitirme projesi olarak ESP32 üzerinde **merkezi olmayan bir LoRa mesh ağı** geliştiriyorum
+- 🤖 Python ile **LLM entegrasyonu, RAG** ve veri işleme üzerine çalışıyorum
+- 🌱 Mobil ile donanımın buluştuğu alanla ilgileniyorum: gömülü yazılım, radyo protokolleri ve bunlarla konuşan uygulamalar
 
 ---
 
-## Featured Projects
+## Öne Çıkan Projeler
 
-### 📡 [LoRa Mesh — Off-Grid Messaging Network](https://github.com/msshn01/lora-mesh)
+### 📡 [LoRa Mesh — İnternetsiz Mesajlaşma Ağı](https://github.com/msshn01/lora-mesh)
 
-A decentralized communication network that carries messages between devices **without internet or cellular infrastructure**, designed with disaster and rubble scenarios in mind. Each node can relay packets for others, so messages hop across the network to reach nodes beyond direct radio range.
+Cihazlar arasında **internet veya baz istasyonu olmadan** mesaj taşıyan, afet ve enkaz senaryoları düşünülerek tasarlanmış merkezi olmayan bir haberleşme ağı. Her düğüm başkalarının paketlerini aktarabildiği için mesajlar ağ üzerinde atlayarak doğrudan menzil dışındaki düğümlere ulaşır.
 
-- **Hardware:** LILYGO T3 LoRa32 (ESP32-PICO-D4, SX1278 radio, SSD1306 OLED), 433 MHz
-- **Firmware:** C on **ESP-IDF**, with a **register-level SX1278 driver** written from scratch over SPI
-- **Custom mesh protocol:** in-packet route tracking, duplicate suppression via seen-packet lists, destination checks and **ACK-based delivery confirmation**
-- **Field-tested:** RSSI/SNR measurement and sequence-number-based packet loss tracking in urban range tests
-- **Next up:** an Android companion app in **Kotlin & Jetpack Compose** for sending and reading messages over the mesh
+- **Donanım:** LILYGO T3 LoRa32 (ESP32-PICO-D4, SX1278 radyo, SSD1306 OLED), 433 MHz
+- **Gömülü yazılım:** **ESP-IDF** üzerinde C ile, SPI üzerinden sıfırdan yazılmış **register seviyesinde SX1278 sürücüsü**
+- **Özgün mesh protokolü:** paket içinde rota takibi, "görülen paketler" listesiyle kopya engelleme, hedef kontrolü ve **ACK ile teslim onayı**
+- **Saha testleri:** şehir içi menzil testlerinde RSSI/SNR ölçümü ve sıra numarasıyla paket kaybı takibi
+- **Sıradaki adım:** mesh üzerinden mesaj gönderip okumak için **Kotlin ve Jetpack Compose** ile Android uygulaması
 
-`C` `ESP-IDF` `ESP32` `LoRa` `SPI` `Embedded Systems` `Networking`
+`C` `ESP-IDF` `ESP32` `LoRa` `SPI` `Gömülü Sistemler` `Ağ Protokolleri`
 
-### 🚗 [CarLog — Vehicle Maintenance & Expense Assistant](https://github.com/msshn01/CarLog)
+### 🚗 [CarLog — Araç Bakım ve Gider Asistanı](https://github.com/msshn01/CarLog)
 
-An Android app that keeps track of a driver's vehicles, maintenance history and upcoming deadlines, and reminds them before inspection or insurance dates slip by.
+Kullanıcının araçlarını, bakım geçmişini ve yaklaşan tarihlerini takip eden, muayene veya sigorta süresi dolmadan hatırlatma yapan bir Android uygulaması.
 
-- **Architecture:** MVVM with a Clean Architecture package structure (`data` / `domain` / `ui` / `di`) and the Repository Pattern
-- **UI:** fully built with **Jetpack Compose** and Jetpack Navigation, including an animated splash screen
-- **Authentication:** **Firebase Auth** with email/password sign-up, input validation, password reset flow and auto-login
-- **Garage:** multi-vehicle support with a vehicle carousel, active vehicle switching, and add/edit/delete flows
-- **Maintenance tracking:** service logs (oil, brakes, timing belt, etc.) with **mileage- and time-based remaining-life indicators**
-- **Smart reminders:** scheduled local notifications via **WorkManager** for inspection and insurance renewal dates
-- **Roadmap:** offline-first sync with Room + Firestore, expense analytics with charts, and a **Gemini-powered AI assistant** that answers questions using the active vehicle's data as context
+- **Mimari:** Clean Architecture paket yapısıyla (`data` / `domain` / `ui` / `di`) MVVM ve Repository Pattern
+- **Arayüz:** tamamen **Jetpack Compose** ve Jetpack Navigation ile, animasyonlu açılış ekranı dahil
+- **Kimlik doğrulama:** **Firebase Auth** ile e-posta/şifre kaydı, form doğrulama, şifre sıfırlama ve otomatik giriş
+- **Garaj:** araç kartlarıyla çoklu araç desteği, aktif araç seçimi, ekleme/düzenleme/silme akışları
+- **Bakım takibi:** yağ, fren, triger gibi bakım kayıtları ve **kilometre ile zamana göre kalan ömür göstergeleri**
+- **Akıllı hatırlatıcılar:** muayene ve sigorta yenileme tarihleri için **WorkManager** ile zamanlanmış bildirimler
+- **Yol haritası:** Room + Firestore ile offline-first senkronizasyon, grafiklerle gider analizi ve aktif aracın verilerini bağlam olarak kullanan **Gemini tabanlı yapay zekâ asistanı**
 
 `Kotlin` `Jetpack Compose` `MVVM` `Firebase` `WorkManager` `Navigation`
 
 ---
 
-## Tech Stack
+## Teknolojiler
 
-**Android Development**
+**Android Geliştirme**
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Android](https://img.shields.io/badge/Android%20SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-**Embedded Systems**
+**Gömülü Sistemler**
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
 ![LoRa](https://img.shields.io/badge/LoRa-1E88E5?style=for-the-badge&logoColor=white)
 
-**AI & Data**
+**Yapay Zekâ ve Veri**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-**Backend, Databases & Tools**
+**Backend, Veritabanları ve Araçlar**
 
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -85,33 +85,33 @@ An Android app that keeps track of a driver's vehicles, maintenance history and 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 <details>
-<summary><b>Detailed skills</b></summary>
+<summary><b>Detaylı yetkinlikler</b></summary>
 <br/>
 
-| Area | Technologies |
+| Alan | Teknolojiler |
 |---|---|
-| **Architecture & Patterns** | Clean Architecture, MVVM, MVI, Repository Pattern, Dependency Injection (Hilt / Koin) |
-| **Async & State** | Kotlin Coroutines, Flow, State Management, Jetpack Libraries |
-| **Networking** | RESTful APIs, Retrofit, Ktor, JSON |
-| **Persistence** | Room, SQLite, PostgreSQL, Firebase Firestore & Realtime Database |
+| **Mimari ve Tasarım Desenleri** | Clean Architecture, MVVM, MVI, Repository Pattern, Dependency Injection (Hilt / Koin) |
+| **Asenkron Programlama ve State** | Kotlin Coroutines, Flow, State Management, Jetpack kütüphaneleri |
+| **Ağ** | RESTful API'ler, Retrofit, Ktor, JSON |
+| **Veri Saklama** | Room, SQLite, PostgreSQL, Firebase Firestore ve Realtime Database |
 | **Firebase** | Authentication, Cloud Messaging, Firestore, Realtime Database |
-| **Embedded** | ESP-IDF, SPI, register-level radio drivers, LoRa (SX1278), OLED displays |
-| **AI / ML** | LLM integration, RAG, computer vision basics, Pandas, NumPy |
-| **Tools** | Android Studio, VS Code, Git / Git Flow, GitHub, Figma, Postman |
+| **Gömülü Sistemler** | ESP-IDF, SPI, register seviyesinde radyo sürücüleri, LoRa (SX1278), OLED ekranlar |
+| **Yapay Zekâ / ML** | LLM entegrasyonu, RAG, temel görüntü işleme, Pandas, NumPy |
+| **Araçlar** | Android Studio, VS Code, Git / Git Flow, GitHub, Figma, Postman |
 
 </details>
 
 ---
 
-## GitHub Stats
+## GitHub İstatistikleri
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=msshn01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6" height="165" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=msshn01&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=tr" height="165" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=msshn01&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&langs_count=6&locale=tr" height="165" />
 </p>
 
 ---
 
 <p align="center">
-  <i>Open to internship opportunities in Android development and embedded systems.</i>
+  <i>Android geliştirme ve gömülü sistemler alanında staj fırsatlarına açığım.</i>
 </p>
